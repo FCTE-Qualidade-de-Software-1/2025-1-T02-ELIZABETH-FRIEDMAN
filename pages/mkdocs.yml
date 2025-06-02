@@ -1,9 +1,11 @@
-site_name: Documentação T02 - Elizabeth Friedman
+site_name: "Grupo Elizabeth Friedman - T02 (2025.1)"
 repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-1-T02-ELIZABETH-FRIEDMAN
 repo_name: GitHub
 
 theme:
-  name: mkdocs
-
+  name: material
 nav:
-  - Início: index.md
+  - Home: index.md
+  - Contextualização: contextualizacao.md
+  - GQM: gqm.md
+  - Portabilidade: portabilidade.md
