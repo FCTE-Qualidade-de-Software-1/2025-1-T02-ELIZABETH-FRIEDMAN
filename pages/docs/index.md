@@ -13,7 +13,7 @@ Elizabeth Friedman foi uma criptanalista pioneira que desempenhou um papel cruci
 </div>
 
 <div align="center">
-<img src="/pages/images/elizabeth.jpeg" alt="Elizabeth Friedman" style=" max-width: 80%; height: auto; margin-bottom: 20px;">
+<img src="./images/elizabeth.jpeg" alt="Elizabeth Friedman" style=" max-width: 80%; height: auto; margin-bottom: 20px;">
 </div>
 <div align="center">
 <p style="text-align: center; margin-bottom: 50px;">
@@ -38,4 +38,4 @@ Elizabeth Friedman foi uma criptanalista pioneira que desempenhou um papel cruci
 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
-|`1.0`|22/05/2025|Criação da página inicial|[Eduarda Tavares](https://github.com/erteduarda)|[João Vitor Lopes Ribeiro](https://github.com/Joa0V)|
+|`1.0`|22/05/2025|Criação da página inicial|[Eduarda Tavares](https://github.com/erteduarda)|[Maciel Ferreira](https://github.com/macieljuniormax)|

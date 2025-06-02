@@ -7,5 +7,6 @@ theme:
 nav:
   - Home: index.md
   - Contextualização: contextualizacao.md
-  - GQM: gqm.md
-  - Portabilidade: portabilidade.md
+  - GQM: 
+    - Definição: GQM/gqm.md
+    - Abstração: GQM/abstracao.md
