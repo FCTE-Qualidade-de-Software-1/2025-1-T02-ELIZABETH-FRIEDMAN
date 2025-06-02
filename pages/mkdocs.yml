@@ -1,0 +1,9 @@
+site_name: Documentação T02 - Elizabeth Friedman
+repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-1-T02-ELIZABETH-FRIEDMAN
+repo_name: GitHub
+
+theme:
+  name: mkdocs
+
+nav:
+  - Início: index.md
