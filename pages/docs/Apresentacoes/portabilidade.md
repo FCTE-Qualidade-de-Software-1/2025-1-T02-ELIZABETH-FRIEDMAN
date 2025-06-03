@@ -6,46 +6,46 @@ Esta página destina-se à apresentação produzida pelo grupo sobre Portabilida
 
 <div align="center">
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade1.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade1.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade2.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade2.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade3.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade3.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade4.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade4.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade5.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade5.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade6.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade6.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade7.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade7.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade8.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade8.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade9.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade9.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade10.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade10.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade11.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade11.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade12.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade12.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade13.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade13.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/portabilidade14.PNG">
+        <img src="../images/apresentacoesAssets/portabilidade14.PNG">
     </figure>
 </div>
 

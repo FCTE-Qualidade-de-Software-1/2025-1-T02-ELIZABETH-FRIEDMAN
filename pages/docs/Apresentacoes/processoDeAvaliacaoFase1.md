@@ -6,34 +6,34 @@ Esta página destina-se à apresentação produzida pelo grupo sobre a fase 1 do
 
 <div align="center">
     <figure>
-        <img src="/images/apresentacoesAssets/fase1_1.PNG">
+        <img src="../images/apresentacoesAssets/fase1_1.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/fase1_2.PNG">
+        <img src="../images/apresentacoesAssets/fase1_2.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/fase1_3.PNG">
+        <img src="../images/apresentacoesAssets/fase1_3.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/fase1_4.PNG">
+        <img src="../images/apresentacoesAssets/fase1_4.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/fase1_5.PNG">
+        <img src="../images/apresentacoesAssets/fase1_5.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/fase1_6.PNG">
+        <img src="../images/apresentacoesAssets/fase1_6.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/fase1_7.PNG">
+        <img src="../images/apresentacoesAssets/fase1_7.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/fase1_8.PNG">
+        <img src="../images/apresentacoesAssets/fase1_8.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/fase1_9.PNG">
+        <img src="../images/apresentacoesAssets/fase1_9.PNG">
     </figure>
     <figure>
-        <img src="/images/apresentacoesAssets/fase1_10.PNG">
+        <img src="../images/apresentacoesAssets/fase1_10.PNG">
     </figure>
 </div>
 
