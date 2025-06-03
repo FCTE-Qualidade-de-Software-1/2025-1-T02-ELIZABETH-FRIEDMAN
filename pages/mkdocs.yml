@@ -10,3 +10,6 @@ nav:
   - GQM: 
     - Definição: GQM/gqm.md
     - Abstração: GQM/abstracao.md
+  - Apresentações:
+    - Portabilidade: Apresentacoes/portabilidade.md
+    - Processo de avaliação de Produto - Fase 1: Apresentacoes/processoDeAvaliacaoFase1.md

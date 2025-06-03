@@ -58,12 +58,12 @@ Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção
 
 | Matrícula | Nome completo | Contribuição (%) |
 |-----------|---------------|------------------|
-| 123456789 | [Ana Letícia](https://github.com/analeticiaa) | 16,66 |
-| 987654321 | [Eduarda Tavares](https://github.com/erteduarda) | 16,66 |
-| 112233445 | [João Vitor Lopes Ribeiro](https://github.com/Joa0V) | 16,66 |
-| 556677889 | [Maciel Ferreira Custódio Júnior](https://github.com/macieljuniormax) | 16,66 |
-| 998877665 | [Mates Fidelis](https://github.com/MatsFidelis) | 16,66 |
-| 443322110 | [Ricardo Augusto Valle Maciel](https://github.com/avmricardo) | 16,66 |
+| 211031584 | [Ana Letícia](https://github.com/analeticiaa) | 16,66 |
+| 170140717 | [Eduarda Tavares](https://github.com/erteduarda) | 16,66 |
+| 221022014 | [João Vitor Lopes Ribeiro](https://github.com/Joa0V) | 16,66 |
+| 190100087 | [Maciel Ferreira Custódio Júnior](https://github.com/macieljuniormax) | 16,66 |
+| 200073184 | [Mates Fidelis](https://github.com/MatsFidelis) | 16,66 |
+| 180077899 | [Ricardo Augusto Valle Maciel](https://github.com/avmricardo) | 16,66 |
 
 **Autor:** [Eduarda Tavares](https://github.com/erteduarda) e [João Vitor Lopes Ribeiro](https://github.com/Joa0V), 2025
 
@@ -87,5 +87,6 @@ Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|22/05/2025|Criação do documento| [Eduarda Tavares](https://github.com/erteduarda) |[Ana Letícia](https://github.com/analeticiaa)|
+|`1.1`|03/056/2025|Correção das matrículas| [João Ribeiro](https://github.com/Joa0V) |-|
 
 <!-- Conteúdo a ser adicionado posteriormente --> 
