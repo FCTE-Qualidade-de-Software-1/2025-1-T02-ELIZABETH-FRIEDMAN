@@ -87,6 +87,6 @@ Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|22/05/2025|Criação do documento| [Eduarda Tavares](https://github.com/erteduarda) |[Ana Letícia](https://github.com/analeticiaa)|
-|`1.1`|03/056/2025|Correção das matrículas| [João Ribeiro](https://github.com/Joa0V) |-|
+|`1.1`|03/06/2025|Correção das matrículas| [João Ribeiro](https://github.com/Joa0V) |[Ricardo Augusto](https:github.com/avmricardo)|
 
 <!-- Conteúdo a ser adicionado posteriormente --> 
