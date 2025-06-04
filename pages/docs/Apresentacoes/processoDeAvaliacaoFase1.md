@@ -42,4 +42,4 @@ Esta página destina-se à apresentação produzida pelo grupo sobre a fase 1 do
 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
-|`1.0`|03/06/2025|Criação do documento| [João Ribeiro](https://github.com/Joa0V) | - |
+|`1.0`|03/06/2025|Criação do documento| [João Ribeiro](https://github.com/Joa0V) | [Ricardo Augusto](https:github.com/avmricardo) |

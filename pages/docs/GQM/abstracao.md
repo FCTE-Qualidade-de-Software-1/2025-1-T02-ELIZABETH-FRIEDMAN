@@ -94,27 +94,32 @@
       <tr>
         <td>211031584</td>
         <td>Ana Letícia Melo Pereira</td>
-        <td>20</td>
+        <td>16,66</td>
       </tr>
       <tr>
         <td>200073184</td>
         <td>Mateus Fidelis Marinho Maia</td>
-        <td>20</td>
+        <td>16,66</td>
       </tr>
       <tr>
         <td>190100087</td>
         <td>Maciel Ferreira Custódio Júnior</td>
-        <td>20</td>
+        <td>16,66</td>
       </tr>
       <tr>
         <td>221022014</td>
         <td>João Vitor Lopes Ribeiro</td>
-        <td>20</td>
+        <td>16,66</td>
       </tr>
       <tr>
         <td>170140717</td>
         <td>Eduarda Rodrigues Tavares</td>
-        <td>20</td>
+        <td>16,66</td>
+      </tr>
+      <tr>
+        <td>180077899</td>
+        <td>Ricardo Augusto Valle Maciel</td>
+        <td>16,66</td>
       </tr>
     </tbody>
   </table>
