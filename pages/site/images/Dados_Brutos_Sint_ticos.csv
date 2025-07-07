@@ -1,0 +1,46 @@
+cenário,tempo_ms,status,observações
+registro,106,200,sucesso
+registro,100,200,sucesso
+registro,107,200,sucesso
+registro,116,200,sucesso
+registro,99,200,sucesso
+registro,99,200,sucesso
+registro,117,200,sucesso
+registro,109,200,sucesso
+registro,96,200,sucesso
+registro,106,200,sucesso
+registro,96,200,sucesso
+registro,96,200,sucesso
+registro,103,200,sucesso
+registro,82,200,sucesso
+registro,84,200,sucesso
+login,75,200,sucesso
+login,74,200,sucesso
+login,87,200,sucesso
+login,81,200,sucesso
+login,74,200,sucesso
+login,71,200,sucesso
+login,78,200,sucesso
+login,75,200,sucesso
+login,79,200,sucesso
+login,77,200,sucesso
+login,82,200,sucesso
+login,69,200,sucesso
+login,88,200,sucesso
+login,101,200,sucesso
+login,89,200,sucesso
+notificacao_tentativa,16,405,erro na criação de notificação (status 405)
+notificacao_tentativa,5,403,erro na criação de notificação (status 403)
+notificacao_tentativa,16,403,erro na criação de notificação (status 403)
+notificacao_tentativa,12,403,erro na criação de notificação (status 403)
+notificacao_tentativa,11,405,erro na criação de notificação (status 405)
+notificacao_tentativa,17,405,erro na criação de notificação (status 405)
+notificacao_tentativa,19,403,erro na criação de notificação (status 403)
+notificacao_tentativa,19,405,erro na criação de notificação (status 405)
+notificacao_tentativa,10,403,erro na criação de notificação (status 403)
+notificacao_tentativa,12,405,erro na criação de notificação (status 405)
+notificacao_tentativa,16,405,erro na criação de notificação (status 405)
+notificacao_tentativa,19,405,erro na criação de notificação (status 405)
+notificacao_tentativa,12,403,erro na criação de notificação (status 403)
+notificacao_tentativa,13,403,erro na criação de notificação (status 403)
+notificacao_tentativa,8,405,erro na criação de notificação (status 405)

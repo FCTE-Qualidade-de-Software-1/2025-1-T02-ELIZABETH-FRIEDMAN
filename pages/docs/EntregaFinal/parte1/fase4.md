@@ -40,12 +40,12 @@ Nesta etapa capturamos todas as métricas e evidências definidas na Fase 2, usa
 
 **Tempo Médio por Cenário (Sintético)**
 
-![Tempo Médio Sintético](/images/output (1).png)
+![Tempo Médio Sintético](../../images/output (1).png)
 *Figura 1: Gráfico do tempo médio por cenário de teste sintético. Mostra o desempenho de login, registro e notificação.*
 
 **Taxa de Erro por Cenário (Sintético)**
 
-![Taxa de Erro Sintético](/images/output.png)
+![Taxa de Erro Sintético](../../images/output.png)
 *Figura 2: Gráfico da taxa de erro por cenário de teste sintético. Evidencia falhas nas notificações.*
 
 ### 4.1.2 Portabilidade (cross-browser/mobile)
@@ -68,7 +68,7 @@ cd ZAP_2.16.1
   -quickout zap_baseline.html
 ```
 
-![ZAP Baseline Scan](/images/zap-baseline.png)
+![ZAP Baseline Scan](../../images/zap-baseline.png)
 *Figura 3: Resumo de vulnerabilidades (High/Medium/Low) do Baseline Scan do OWASP ZAP.*
 
 #### 4.1.3.1 Resultados detalhados (PDF)
@@ -98,7 +98,7 @@ Estes resultados orientam a aplicação de cabeçalhos de segurança adicionais 
 
 <!-- Embedding PDF -->
 
-<iframe src="/images/ZAP Report.pdf" width="100%" height="600px" title="ZAP Report"></iframe>
+<iframe src="../../images/ZAP Report.pdf" width="100%" height="600px" title="ZAP Report"></iframe>
 
 ### 4.1.4 Confiabilidade / Desempenho
 
@@ -124,10 +124,10 @@ lhci autorun \
 
 ### 4.2.1 Capturas de tela dos relatórios
 
-![img1](/images/img1.png)
+![img1](../../images/img1.png)
 *Figura 4: Relatório Lighthouse CI – Desktop. Mostra os principais indicadores de performance para desktop.*
 
-![img2](/images/img2.png)
+![img2](../../images/img2.png)
 *Figura 5: Relatório Lighthouse CI – Mobile. Mostra os principais indicadores de performance para mobile.*
 
 ---
