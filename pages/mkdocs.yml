@@ -13,3 +13,14 @@ nav:
   - Apresentações:
     - Portabilidade: Apresentacoes/portabilidade.md
     - Processo de avaliação de Produto - Fase 1: Apresentacoes/processoDeAvaliacaoFase1.md
+  - Entrega Final:
+    - Parte 1 - Avaliação de Qualidade AGROMART:
+      - Fase 1 - Proposito da avaliação: EntregaFinal/parte1/fase1.md
+      - Fase 2 - Especificar a Avaliação: EntregaFinal/parte1/fase2.md
+      - Fase 3 - Projetar a avaliação: EntregaFinal/parte1/fase3.md
+      - Fase 4 - Implementar a avaliação: EntregaFinal/parte1/fase4.md
+    - Parte 2 - Gestão do Projeto PSN/ad:
+      - Calendário e Progresso: EntregaFinal/parte2/calendario_progresso.md
+      - Performance do Processo: EntregaFinal/parte2/performance_processo.md
+      - Custo e Recurso: EntregaFinal/parte2/custo_recurso.md
+      
