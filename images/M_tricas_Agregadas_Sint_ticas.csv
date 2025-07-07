@@ -1,0 +1,4 @@
+cenário,avg_time_ms,total_requests,error_count,error_rate_%
+login,80.0,15,0,0.0
+notificacao_tentativa,13.666666666666666,15,15,100.0
+registro,101.06666666666666,15,0,0.0

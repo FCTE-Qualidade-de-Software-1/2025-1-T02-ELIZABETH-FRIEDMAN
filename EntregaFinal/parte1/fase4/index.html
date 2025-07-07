@@ -1,0 +1,1596 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../fase3/">
+      
+      
+        <link rel="next" href="../../parte2/calendario_progresso/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Fase 4 - Implementar a avaliação - Grupo Elizabeth Friedman - T02 (2025.1)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#4-fase-4-executar-a-avaliacao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Grupo Elizabeth Friedman - T02 (2025.1)" class="md-header__button md-logo" aria-label="Grupo Elizabeth Friedman - T02 (2025.1)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo Elizabeth Friedman - T02 (2025.1)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Fase 4 - Implementar a avaliação
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-1-T02-ELIZABETH-FRIEDMAN" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Grupo Elizabeth Friedman - T02 (2025.1)" class="md-nav__button md-logo" aria-label="Grupo Elizabeth Friedman - T02 (2025.1)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Grupo Elizabeth Friedman - T02 (2025.1)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-1-T02-ELIZABETH-FRIEDMAN" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contextualizacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contextualização
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    GQM
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            GQM
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../GQM/gqm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Definição
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../GQM/abstracao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Abstração
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Apresentações
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Portabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/processoDeAvaliacaoFase1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Processo de avaliação de Produto - Fase 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Entrega Final
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega Final
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Parte 1 - Avaliação de Qualidade AGROMART
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Parte 1 - Avaliação de Qualidade AGROMART
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fase1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fase 1 - Proposito da avaliação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fase2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fase 2 - Especificar a Avaliação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fase3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fase 3 - Projetar a avaliação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Fase 4 - Implementar a avaliação
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fase 4 - Implementar a avaliação
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#41-coleta-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Coleta de dados
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1 Coleta de dados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411-usabilidade-cenarios-manuais" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1 Usabilidade (cenários manuais)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1.1 Usabilidade (cenários manuais)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#4111-dados-brutos-sinteticos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1.1 Dados Brutos Sintéticos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4112-metricas-agregadas-sinteticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1.2 Métricas Agregadas Sintéticas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4113-visualizacoes-graficas-sinteticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1.3 Visualizações Gráficas Sintéticas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412-portabilidade-cross-browsermobile" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.2 Portabilidade (cross-browser/mobile)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.3 Segurança
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1.3 Segurança">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#4131-resultados-detalhados-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.3.1 Resultados detalhados (PDF)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#414-confiabilidade-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.4 Confiabilidade / Desempenho
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#42-testes-de-lighthouse-ci" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Testes de Lighthouse CI
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2 Testes de Lighthouse CI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421-capturas-de-tela-dos-relatorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.1 Capturas de tela dos relatórios
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#43-analise-e-interpretacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 Análise e interpretação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#44-problemas-e-propostas-de-melhoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 Problemas e propostas de melhoria
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#45-execucao-das-melhorias" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5 Execução das melhorias
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#46-outras-sugestoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.6 Outras sugestões
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#47-status-da-automacao-cicd" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7 Status da Automação (CI/CD)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Parte 2 - Gestão do Projeto PSN/ad
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Parte 2 - Gestão do Projeto PSN/ad
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../parte2/calendario_progresso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Calendário e Progresso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../parte2/performance_processo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Performance do Processo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../parte2/custo_recurso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Custo e Recurso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#41-coleta-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Coleta de dados
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1 Coleta de dados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411-usabilidade-cenarios-manuais" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1 Usabilidade (cenários manuais)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1.1 Usabilidade (cenários manuais)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#4111-dados-brutos-sinteticos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1.1 Dados Brutos Sintéticos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4112-metricas-agregadas-sinteticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1.2 Métricas Agregadas Sintéticas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4113-visualizacoes-graficas-sinteticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1.3 Visualizações Gráficas Sintéticas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412-portabilidade-cross-browsermobile" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.2 Portabilidade (cross-browser/mobile)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.3 Segurança
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1.3 Segurança">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#4131-resultados-detalhados-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.3.1 Resultados detalhados (PDF)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#414-confiabilidade-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.4 Confiabilidade / Desempenho
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#42-testes-de-lighthouse-ci" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Testes de Lighthouse CI
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2 Testes de Lighthouse CI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421-capturas-de-tela-dos-relatorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.1 Capturas de tela dos relatórios
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#43-analise-e-interpretacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 Análise e interpretação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#44-problemas-e-propostas-de-melhoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 Problemas e propostas de melhoria
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#45-execucao-das-melhorias" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5 Execução das melhorias
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#46-outras-sugestoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.6 Outras sugestões
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#47-status-da-automacao-cicd" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7 Status da Automação (CI/CD)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="4-fase-4-executar-a-avaliacao">4. Fase 4 – Executar a avaliação</h1>
+<hr />
+<h2 id="41-coleta-de-dados">4.1 Coleta de dados</h2>
+<p>Nesta etapa capturamos todas as métricas e evidências definidas na Fase 2, usando os cenários e instrumentos da Fase 3.</p>
+<h3 id="411-usabilidade-cenarios-manuais">4.1.1 Usabilidade (cenários manuais)</h3>
+<ul>
+<li>Tempos de conclusão e número de cliques por tarefa (login, criar conta, notificação)</li>
+<li>Respostas ao questionário Likert de satisfação</li>
+</ul>
+<h4 id="4111-dados-brutos-sinteticos">4.1.1.1 Dados Brutos Sintéticos</h4>
+<table>
+<thead>
+<tr>
+<th>cenário</th>
+<th style="text-align: right;">tempo_ms</th>
+<th style="text-align: right;">status</th>
+<th>observações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>registro</td>
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">200</td>
+<td>sucesso</td>
+</tr>
+<tr>
+<td>registro</td>
+<td style="text-align: right;">110</td>
+<td style="text-align: right;">200</td>
+<td>sucesso</td>
+</tr>
+<tr>
+<td>registro</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">200</td>
+<td>sucesso</td>
+</tr>
+<tr>
+<td>login</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">200</td>
+<td>sucesso</td>
+</tr>
+<tr>
+<td>login</td>
+<td style="text-align: right;">82</td>
+<td style="text-align: right;">200</td>
+<td>sucesso</td>
+</tr>
+<tr>
+<td>login</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">200</td>
+<td>sucesso</td>
+</tr>
+<tr>
+<td>notificacao_tentativa</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">403</td>
+<td>erro na criação de notificação (403)</td>
+</tr>
+<tr>
+<td>notificacao_tentativa</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">405</td>
+<td>erro na criação de notificação (405)</td>
+</tr>
+<tr>
+<td>notificacao_tentativa</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">403</td>
+<td>erro na criação de notificação (403)</td>
+</tr>
+<tr>
+<td>...</td>
+<td style="text-align: right;">...</td>
+<td style="text-align: right;">...</td>
+<td>...</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Os 15 registros por cenário seguem o mesmo padrão acima.</p>
+</blockquote>
+<h4 id="4112-metricas-agregadas-sinteticas">4.1.1.2 Métricas Agregadas Sintéticas</h4>
+<table>
+<thead>
+<tr>
+<th>cenário</th>
+<th style="text-align: right;">avg_time_ms</th>
+<th style="text-align: right;">total_requests</th>
+<th style="text-align: right;">error_count</th>
+<th style="text-align: right;">error_rate_%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>registro</td>
+<td style="text-align: right;">101.2</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td>login</td>
+<td style="text-align: right;">79.4</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td>notificacao_tentativa</td>
+<td style="text-align: right;">14.1</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">100.0</td>
+</tr>
+</tbody>
+</table>
+<h4 id="4113-visualizacoes-graficas-sinteticas">4.1.1.3 Visualizações Gráficas Sintéticas</h4>
+<p><strong>Tempo Médio por Cenário (Sintético)</strong></p>
+<p><img alt="Tempo Médio Sintético" src="/images/output (1).png" />
+<em>Figura 1: Gráfico do tempo médio por cenário de teste sintético. Mostra o desempenho de login, registro e notificação.</em></p>
+<p><strong>Taxa de Erro por Cenário (Sintético)</strong></p>
+<p><img alt="Taxa de Erro Sintético" src="/images/output.png" />
+<em>Figura 2: Gráfico da taxa de erro por cenário de teste sintético. Evidencia falhas nas notificações.</em></p>
+<h3 id="412-portabilidade-cross-browsermobile">4.1.2 Portabilidade (cross-browser/mobile)</h3>
+<ul>
+<li>Resultados do Lighthouse CI para cada navegador e viewport</li>
+<li>Registros de erros de layout ou de script</li>
+</ul>
+<h3 id="413-seguranca">4.1.3 Segurança</h3>
+<p>Para realizar a varredura de segurança usamos o OWASP ZAP em modo CLI, sem GUI:</p>
+<pre><code class="language-bash"># Se for necessário, pare o daemon existente:
+pkill -f zap.sh || true
+
+# Rodar Baseline Scan (rápido)
+cd ZAP_2.16.1
+./zap.sh -cmd \
+  -quickurl http://localhost:3000 \
+  -quickout zap_baseline.html
+</code></pre>
+<p><img alt="ZAP Baseline Scan" src="/images/zap-baseline.png" />
+<em>Figura 3: Resumo de vulnerabilidades (High/Medium/Low) do Baseline Scan do OWASP ZAP.</em></p>
+<h4 id="4131-resultados-detalhados-pdf">4.1.3.1 Resultados detalhados (PDF)</h4>
+<p>No relatório <strong>ZAP Report.pdf</strong> (anexo), gerado em <strong>06/07/2025 22:08:21</strong>, encontra-se o seguinte resumo de alertas:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Nível de risco</th>
+<th style="text-align: right;">Alertas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">High</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td style="text-align: right;">Medium</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td style="text-align: right;">Low</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td style="text-align: right;">Informational</td>
+<td style="text-align: right;">2</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Principais vulnerabilidades (Medium)</strong></p>
+<ul>
+<li><strong>CSP: Failure to Define Directive with No Fallback</strong> (3 instâncias): falta configuração de <code>frame-ancestors</code> e <code>form-action</code>.</li>
+<li><strong>Content Security Policy Header Not Set</strong> (1 instância): ausência do header CSP na root.</li>
+<li><strong>Missing Anti-clickjacking Header</strong> (1 instância): falta <code>X-Frame-Options</code> ou <code>frame-ancestors</code>.</li>
+</ul>
+<p><strong>Vulnerabilidades de baixo risco (Low)</strong></p>
+<ul>
+<li><strong>Server Leaks Information via "X-Powered-By"</strong> (9 instâncias)</li>
+<li><strong>Timestamp Disclosure – Unix</strong> (19 instâncias)</li>
+<li><strong>X-Content-Type-Options Header Missing</strong> (4 instâncias)</li>
+</ul>
+<p>Estes resultados orientam a aplicação de cabeçalhos de segurança adicionais (CSP, X-Frame-Options, X-Content-Type-Options) e a remoção de informações expostas via <code>X-Powered-By</code> e timestamps em recursos estáticos.</p>
+<!-- Embedding PDF -->
+
+<iframe src="/images/ZAP Report.pdf" width="100%" height="600px" title="ZAP Report"></iframe>
+
+<h3 id="414-confiabilidade-desempenho">4.1.4 Confiabilidade / Desempenho</h3>
+<ul>
+<li>Logs de servidor (erros 5xx, tempos de resposta) durante testes de stress</li>
+<li>Métricas de performance coletadas via Lighthouse CI</li>
+</ul>
+<hr />
+<h2 id="42-testes-de-lighthouse-ci">4.2 Testes de Lighthouse CI</h2>
+<p>Para validar a performance e portabilidade, executamos:</p>
+<pre><code class="language-bash">lhci autorun \
+  --collect.url=http://localhost:3000 \
+  --collect.chromePath=&quot;/usr/bin/google-chrome-stable&quot; \
+  --collect.chromeFlags=&quot;--no-sandbox --headless --disable-gpu&quot; \
+  --assert.preset=lighthouse:recommended
+</code></pre>
+<ul>
+<li><strong>Collect</strong>: múltiplos relatórios HTML/JSON em <code>.lighthouseci/</code>.</li>
+<li><strong>Assert</strong>: preset <code>lighthouse:recommended</code> para thresholds mínimos.</li>
+</ul>
+<h3 id="421-capturas-de-tela-dos-relatorios">4.2.1 Capturas de tela dos relatórios</h3>
+<p><img alt="img1" src="/images/img1.png" />
+<em>Figura 4: Relatório Lighthouse CI – Desktop. Mostra os principais indicadores de performance para desktop.</em></p>
+<p><img alt="img2" src="/images/img2.png" />
+<em>Figura 5: Relatório Lighthouse CI – Mobile. Mostra os principais indicadores de performance para mobile.</em></p>
+<hr />
+<h2 id="43-analise-e-interpretacao">4.3 Análise e interpretação</h2>
+<ul>
+<li>
+<p><strong>Agregação de métricas</strong></p>
+</li>
+<li>
+<p>Médias, medianas e percentis (tempo médio de login, 95º percentil etc.)</p>
+</li>
+<li>
+<p>Taxas de sucesso vs. falha por cenário</p>
+</li>
+<li>
+<p><strong>Comparação com critérios de sucesso</strong></p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Métrica</th>
+<th>Resultado Médio</th>
+<th>Critério</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tempo médio de login</td>
+<td>79 ms</td>
+<td>≤ 200 ms</td>
+<td>✔️ Aprovado</td>
+</tr>
+<tr>
+<td>Tempo médio de registro</td>
+<td>101 ms</td>
+<td>≤ 250 ms</td>
+<td>✔️ Aprovado</td>
+</tr>
+<tr>
+<td>Tempo médio notificação tentativa</td>
+<td>14 ms</td>
+<td>≤ 50 ms</td>
+<td>⚠️ Ajustar</td>
+</tr>
+<tr>
+<td>Taxa de erro (notificação)</td>
+<td>100 %</td>
+<td>&lt; 5 %</td>
+<td>❌ Rejeitado</td>
+</tr>
+<tr>
+<td>Vulnerabilidades críticas (ZAP)</td>
+<td>0</td>
+<td>0</td>
+<td>✔️ Aprovado</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p><strong>Identificação de padrões</strong></p>
+</li>
+<li>
+<p>Latência elevada no carregamento inicial de scripts</p>
+</li>
+<li>Notificações falhando consistentemente (100 % de erro)
+  | Registros e logins dentro dos limites aceitáveis</li>
+</ul>
+<hr />
+<h2 id="44-problemas-e-propostas-de-melhoria">4.4 Problemas e propostas de melhoria</h2>
+<table>
+<thead>
+<tr>
+<th>Problema identificado</th>
+<th>Proposta de melhoria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Latência de notificações muito baixa (&lt;50 ms)</td>
+<td>Revisar tratamento de exceções; adicionar simulação de sucesso para testes completos</td>
+</tr>
+<tr>
+<td>Erros 100 % em notificações</td>
+<td>Corrigir endpoint; validar token JWT e cabeçalhos antes da requisição</td>
+</tr>
+<tr>
+<td>Carga de scripts no registro</td>
+<td>Implementar lazy-load e split de bundles JavaScript</td>
+</tr>
+<tr>
+<td>Ausência de testes automáticos para notificação</td>
+<td>Criar testes de integração para endpoint de notificações</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="45-execucao-das-melhorias">4.5 Execução das melhorias</h2>
+<ol>
+<li>
+<p><strong>Sprint de correção (1 semana)</strong></p>
+</li>
+<li>
+<p>Ajustar código de notificação para tratar sucesso/falha</p>
+</li>
+<li>
+<p>Refatorar carregamento de scripts via Webpack split</p>
+</li>
+<li>
+<p><strong>Deploy em staging</strong></p>
+</li>
+<li>Pipeline CI com novas verificações de API e performance</li>
+<li>Execução manual de verificações de API e performance via Lighthouse CI</li>
+<li>
+<p>Recoleta de dados sintéticos para validação</p>
+</li>
+<li>
+<p><strong>Reavaliação rápida</strong></p>
+</li>
+<li>
+<p>Atualizar planilhas e comparar antes/depois das correções</p>
+</li>
+<li>Ajustar backlog conforme descobertas</li>
+</ol>
+<hr />
+<h2 id="46-outras-sugestoes">4.6 Outras sugestões</h2>
+<ul>
+<li>Monitoramento em produção com ferramentas gratuitas para alertas</li>
+<li>Retrospectiva documentada em ata para lições aprendidas</li>
+<li>Planejar Fase 5: fluxo de compra completo e testes de carga avançados</li>
+</ul>
+<hr />
+<h2 id="47-status-da-automacao-cicd">4.7 Status da Automação (CI/CD)</h2>
+<p>O workflow de CI do GitHub Actions para automação da avaliação de qualidade (Lighthouse CI, OWASP ZAP, ESLint e testes) já está em funcionamento parcial. Algumas etapas, como a varredura automática do OWASP ZAP, ainda apresentam falhas, mas estamos trabalhando para corrigir todos os problemas até a entrega final e a conclusão da Parte 2 do projeto.</p>
+<hr />
+<h1 id="entregaveis-da-fase-4">Entregáveis da Fase 4</h1>
+<ol>
+<li>Planilhas com os dados brutos e agregados</li>
+<li>Relatório de análise (médias, comparativos e gráficos simples)</li>
+<li>Problemas e Propostas de Melhoria</li>
+</ol>
+<hr />
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th style="text-align: center;">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td>06/07/2025</td>
+<td>Criação do documento</td>
+<td><a href="https://github.com/erteduarda">Eduarda Tavares</a></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
