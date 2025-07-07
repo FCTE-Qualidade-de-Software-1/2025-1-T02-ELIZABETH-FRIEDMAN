@@ -211,6 +211,6 @@ O workflow de CI do GitHub Actions para automação da avaliação de qualidade 
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição            | Autor                                            | Revisor |
-| :----: | ---------- | -------------------- | ------------------------------------------------ | :-----: |
-| `1.0`  | 06/07/2025 | Criação do documento | [Eduarda Tavares](https://github.com/erteduarda) |         |
+| Versão | Data       | Descrição            | Autor                                            | Revisor                                            |
+| :----: | ---------- | -------------------- | ------------------------------------------------ | :------------------------------------------------: |
+| `1.0`  | 06/07/2025 | Criação do documento | [Eduarda Tavares](https://github.com/erteduarda) |  [Ana Letícia](https://github.com/analeticiaa)     |

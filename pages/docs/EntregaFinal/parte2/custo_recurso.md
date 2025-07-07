@@ -2,12 +2,12 @@
 
 ## Recursos Humanos
 
-| Membro da Equipe      | Função                  | Horas Dedicadas (estimado) |
-| --------------------- | ----------------------- | -------------------------- |
-| Eduarda Tavares       | Gerente de Projeto      | 18h                        |
-| Ana Letícia           | Revisora/Analista       | 14h                        |
-| Equipe de Dev (2)     | Desenvolvimento/Testes  | 24h                        |
-| Equipe de UX/UI (1)   | Design e Usabilidade    | 8h                         |
+| Membro da Equipe                | Função                  | Horas Dedicadas (estimado) |
+| ------------------------------- | ----------------------- | -------------------------- |
+| Eduarda Tavares                 | Gerente de Projeto      | 18h                        |
+| Ana Letícia                     | Revisora/Analista       | 14h                        |
+| João Vitor, Maciel Ferreira     | Desenvolvimento/Testes  | 24h                        |
+| Mateus Fidelis, Ricardo Augusto | Design e Usabilidade    | 8h                         |
 
 **Total estimado:** 64 horas
 

@@ -29,7 +29,7 @@ Elizabeth Friedman foi uma criptanalista pioneira que desempenhou um papel cruci
     <td align="center"><a href="https://github.com/erteduarda"><img style="border-radius: 60%;" src="https://github.com/erteduarda.png" width="100px;" alt=""/><br /><sub><b>Eduarda Tavares</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/Joa0V"><img style="border-radius: 60%;" src="https://github.com/Joa0V.png" width="100px;" alt=""/><br /><sub><b>João Vitor Lopes Ribeiro</b></sub></a><br />
     <td align="center"><a href="https://github.com/macieljuniormax"><img style="border-radius: 60%;" src="https://github.com/macieljuniormax.png" width="100px;" alt=""/><br /><sub><b>Maciel Ferreira Custódio Júnior</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/MatsFidelis"><img style="border-radius: 60%;" src="https://github.com/MatsFidelis.png" width="100px;" alt=""/><br /><sub><b>Mates Fidelis</b></sub></a><br />
+    <td align="center"><a href="https://github.com/MatsFidelis"><img style="border-radius: 60%;" src="https://github.com/MatsFidelis.png" width="100px;" alt=""/><br /><sub><b>Mateus Fidelis Marinho Maia</b></sub></a><br />
     <td align="center"><a href="https://github.com/avmricardo"><img style="border-radius: 60%;" src="https://github.com/avmricardo.png" width="100px;" alt=""/><br /><sub><b>Ricardo Augusto Valle Maciel</b></sub></a><br />
   </tr>
 </table>

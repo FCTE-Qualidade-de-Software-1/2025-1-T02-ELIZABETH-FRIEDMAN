@@ -11,7 +11,8 @@
 
 - Início do projeto: 24/06/2025
 - Primeira entrega: 01/07/2025
-- Entrega final: 07/07/2025
+- Ponto de Controle: 07/07/2025
+- Entrega final: até 23:59h do dia 08/07/2025
 
 ## Observações
 
@@ -21,6 +22,6 @@ O projeto foi realizado em ritmo intensivo nas últimas duas semanas, com foco e
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição            | Autor                                            | Revisor |
-| :----: | ---------- | -------------------- | ------------------------------------------------ | :-----: |
-| `1.0`  | 06/07/2025 | Criação do documento | [Eduarda Tavares](https://github.com/erteduarda) |         |
+| Versão | Data       | Descrição            | Autor                                            | Revisor                                            |
+| :----: | ---------- | -------------------- | ------------------------------------------------ | :------------------------------------------------: |
+| `1.0`  | 06/07/2025 | Criação do documento | [Eduarda Tavares](https://github.com/erteduarda) |  [Mateus Fidelis](https://github.com/MatsFidelis)  |

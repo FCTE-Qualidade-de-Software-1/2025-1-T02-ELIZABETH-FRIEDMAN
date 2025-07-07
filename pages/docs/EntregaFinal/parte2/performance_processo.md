@@ -30,6 +30,6 @@ A equipe demonstrou alta colaboração, adaptabilidade e foco, conseguindo entre
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição            | Autor                                            | Revisor |
-| :----: | ---------- | -------------------- | ------------------------------------------------ | :-----: |
-| `1.0`  | 06/07/2025 | Criação do documento | [Eduarda Tavares](https://github.com/erteduarda) |         |
+| Versão | Data       | Descrição            | Autor                                            | Revisor                                            |
+| :----: | ---------- | -------------------- | ------------------------------------------------ | :------------------------------------------------: |
+| `1.0`  | 06/07/2025 | Criação do documento | [Eduarda Tavares](https://github.com/erteduarda) |  [Mateus Fidelis](https://github.com/MatsFidelis)  |
