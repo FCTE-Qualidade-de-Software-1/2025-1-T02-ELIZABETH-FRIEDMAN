@@ -17,8 +17,8 @@ O AGROMART visa melhorar a eficiência e a qualidade da plataforma de e-commerce
 #### Questões Objetivo de Medição 1: Usabilidade
 
 - **Q1:** Os usuários conseguem fazer login e criar conta facilmente?
-  - **Métrica:** Tempo médio para criar uma conta e realizar login.
-  - **Hipótese Q1:** O tempo médio para receber uma resposta ao realizar ações de criar conta e/ou login é inferior a 200ms.
+  - **Métrica:** Tempo máximo para criar uma conta e realizar login para uma determinada quantidade de usuários.
+  - **Hipótese Q1:** 90% dos usuários possuem tempo máximo para receber uma resposta ao realizar ações de criar conta e/ou login menor ou igual a 200ms.
 
 - **Q2:** Qual é o nível de satisfação dos usuários com a interface?
   - **Métrica:** Avaliação média da interface (escala de 1 a 5).

@@ -2,12 +2,12 @@
 
 | Objeto  | Propósito | Foco de Qualidade | Ponto de Vista |
 |--|--|--|--|
-| Plataforma Agromart | Melhorar a experiência do usuário | - Facilidade de uso  <br>- Tempo para completar tarefas <br>- Feedback do usuário                | Equipe de Design UX |
+| Plataforma Agromart | Melhorar a experiência do usuário | - Tempo máximo para criar uma conta e realizar login  <br>- Avaliação média da interface <br>- Número médio de cliques do início da busca até a finalização da compra               | Equipe de Design UX |
 
 ### Quality Focus (Foco de Qualidade)
-- Facilidade de encontrar e comprar produtos  
-- Tempo médio de conclusão de tarefas (busca + finalização)  
-- Nível de satisfação subjetivo (avaliação de 1 a 5)  
+- Tempo máximo para criar uma conta e realizar login
+- Avaliação média da interface (escala de 1 a 5)
+- Número médio de cliques do início da busca até a finalização da compra
 
 ### Variation Factors (Fatores de Variação)
 - Familiaridade dos usuários com a interface  
@@ -15,7 +15,7 @@
 - Complexidade/variedade dos produtos buscados  
 
 ### Baseline Hypotheses (Hipóteses de Referência)
-- **Q1:** 90 % dos usuários conseguem completar uma compra em até 3 minutos.  
+- **Q1:** 90 % dos usuários conseguem realizar login em menos de 200ms.  
 - **Q2:** A média de avaliação da interface pelos usuários é superior a 4,0 (escala 1–5).  
 - **Q3:** Máximo de 5 cliques desde a busca até a finalização da compra.  
 
@@ -30,12 +30,12 @@
 
 | Objeto |  Propósito | Foco de Qualidade | Ponto de Vista |
 |--|---|--|----|
-| Plataforma Agromart | Caracterizar portabilidade da aplicação | - Compatibilidade com navegadores (Chrome, Firefox, Safari)  <br>- Compatibilidade com dispositivos (mobile, desktop)  <br>- Compatibilidade com sistemas operacionais (Windows, macOS, Linux, Android, iOS)    | Equipe de Desenvolvimento          |
+| Plataforma Agromart | Caracterizar portabilidade da aplicação | - Porcentagem de builds sem falha por navegador <br>-  Taxa de responsividade e manutenção da funcionalidade em diferentes tamanhos de tela. <br>- Taxa de compatibilidade sem erros em sistemas operacionais suportados.   | Equipe de Desenvolvimento          |
 
 ### Quality Focus (Foco de Qualidade)
-- Número de falhas em diferentes navegadores  
-- Problemas de layout/responsividade em dispositivos móveis  
-- Erros de execução por ambiente (SO, versão do navegador)  
+- Porcentagem de builds sem falha por navegador
+-  Taxa de responsividade e manutenção da funcionalidade em diferentes tamanhos de tela.
+- Taxa de compatibilidade sem erros em sistemas operacionais suportados.
 
 ### Variation Factors (Fatores de Variação)
 - Tipo de navegador utilizado  
@@ -43,9 +43,9 @@
 - Sistema operacional utilizado  
 
 ### Baseline Hypotheses (Hipóteses de Referência)
-- 100 % das funcionalidades operem em múltiplos navegadores.  
-- 80 % de responsividade (sem distorções) em dispositivos móveis.  
-- 100 % de compatibilidade com principais sistemas operacionais.  
+- O sistema apresenta comportamento consistente em todos os navegadores testados.
+- O layout se adapta corretamente e mantém a funcionalidade em ao menos 80% dos dispositivos móveis testados. 
+- O sistema funciona sem erros em todos os sistemas operacionais suportados. 
 
 ### Impact of Variation Factors (Impacto dos Fatores de Variação)
 - Ambientes menos comuns (por exemplo, navegadores antigos ou distribuições Linux não convencionais) tendem a apresentar mais falhas ou comportamentos inesperados.  
@@ -61,7 +61,7 @@
 | Aspecto Avaliado        | Controle de acesso, proteção de dados e resposta a incidentes                                                 |
 | Ponto de Vista         | Equipe de segurança da informação                                                                              |
 | Contexto                | Usuários acessando/manipulando dados pessoais e financeiros durante a navegação e compra                     |
-| Questões                | - **Q1:** O sistema impede o acesso não autorizado a áreas restritas?  <br>- **Q2:** Os dados sensíveis estão protegidos (armazenamento/transmissão)?  <br>- **Q3:** Tempo de resposta a falhas de segurança é adequado?               |
+| Questões                | - **Q1:** O sistema impede o acesso não autorizado a áreas restritas?  <br>- **Q2:** Os dados sensíveis (ex.: informações de cartão de crédito) estão sendo armazenados e transmitidos de forma segura? <br>- **Q3:** O tempo de resposta a tentativas de invasão ou falhas de segurança é adequado?               |
 | Métricas                | - Taxa de tentativas de acesso não autorizado bloqueadas  <br>- Percentual de dados sensíveis transmitidos via HTTPS/TLS 1.2+ <br>- Incidência de dados sensíveis armazenados em texto simples  <br>- Tempo médio de detecção de incidentes  <br>- Tempo médio de resposta a incidentes                                        |
 | Hipóteses               | - **Q1:** 100 % dos acessos não autorizados são bloqueados  <br>- **Q2:** Todos os dados sensíveis são transmitidos e armazenados de forma segura (TLS 1.2+; sem texto simples)  <br>- **Q3:** Resposta a incidentes em até 5 minutos.                         |
 
@@ -118,3 +118,4 @@
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|22/05/2025|Criação do documento| [Eduarda Tavares](https://github.com/erteduarda) |[Ana Letícia](https://github.com/analeticiaa)|
+|`1.1`|08/07/2025|Compatibilidade com entrega final| [Ricardo Augusto](https://gthub.com/avmricardo) | [Maciel](https://github.com/macieljuniormax), [João Vitor](https://github.com/Joa0V) |
