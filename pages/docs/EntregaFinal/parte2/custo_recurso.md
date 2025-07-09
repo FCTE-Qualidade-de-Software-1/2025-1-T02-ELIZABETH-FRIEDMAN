@@ -7,7 +7,7 @@
 | Eduarda Tavares                 | Gerente de Projeto      | 18h                        |
 | Ana Letícia                     | Revisora/Analista       | 14h                        |
 | João Vitor, Maciel Ferreira     | Desenvolvimento/Testes  | 24h                        |
-| Mateus Fidelis, Ricardo Augusto | Design e Usabilidade    | 8h                         |
+| Mateus Fidelis, Ricardo Augusto | Design e Usabilidade    | 20h                        |
 
 **Total estimado:** 64 horas
 
@@ -36,4 +36,4 @@
 
 | Versão | Data       | Descrição            | Autor                                            | Revisor |
 | :----: | ---------- | -------------------- | ------------------------------------------------ | :-----: |
-| `1.0`  | 06/07/2025 | Criação do documento | [Eduarda Tavares](https://github.com/erteduarda) |         |
+| `1.0`  | 06/07/2025 | Criação do documento | [Eduarda Tavares](https://github.com/erteduarda) | [Ricardo Augusto](https://github.com/avmricardo) |
