@@ -16,9 +16,9 @@ O AGROMART visa melhorar a eficiência e a qualidade da plataforma de e-commerce
 
 #### Questões Objetivo de Medição 1: Usabilidade
 
-- **Q1:** Os usuários conseguem encontrar e comprar um produto facilmente?
-  - **Métrica:** Tempo médio para finalizar uma compra.
-  - **Hipótese Q1:** O tempo médio para finalizar uma compra é inferior a 3 minutos.
+- **Q1:** Os usuários conseguem fazer login e criar conta facilmente?
+  - **Métrica:** Tempo médio para criar uma conta e realizar login.
+  - **Hipótese Q1:** O tempo médio para receber uma resposta ao realizar ações de criar conta e/ou login é inferior a 200ms.
 
 - **Q2:** Qual é o nível de satisfação dos usuários com a interface?
   - **Métrica:** Avaliação média da interface (escala de 1 a 5).
@@ -41,7 +41,7 @@ O AGROMART visa melhorar a eficiência e a qualidade da plataforma de e-commerce
 #### Questões Objetivo de Medição 2: Portabilidade
 
 - **Q1:** O sistema é funcional em diferentes navegadores (Chrome, Firefox, Safari)?
-  - **Métrica:** Taxa de comportamento consistente entre navegadores testados.
+  - **Métrica:** Porcentagem de builds sem falha por navegador.
   - **Hipótese Q1:** O sistema apresenta comportamento consistente em todos os navegadores testados.
 
 - **Q2:** O sistema é utilizável em dispositivos móveis com diferentes resoluções?
@@ -66,16 +66,16 @@ O AGROMART visa melhorar a eficiência e a qualidade da plataforma de e-commerce
 
 - **Q1:** O sistema impede o acesso não autorizado a áreas restritas?
   - **Métrica:** Taxa de tentativas de acesso não autorizado bloqueadas.
-  - **Hipótese Q1:** 100 % das tentativas de acesso não autorizado são bloqueadas.
+  - **Hipótese Q1:** 100% das tentativas de acesso não autorizado são bloqueadas.
 
 - **Q2:** Os dados sensíveis (ex.: informações de cartão de crédito) estão sendo armazenados e transmitidos de forma segura?
   - **Métrica 1:** Percentual de dados sensíveis transmitidos com criptografia TLS 1.2 ou superior.
   - **Métrica 2:** Incidência de dados sensíveis armazenados em texto simples.
-  - **Hipótese Q2:** Todos os dados sensíveis são transmitidos via HTTPS com criptografia TLS 1.2 (ou superior) e não são armazenados em texto simples.
+  - **Hipótese Q2.1:** Todos os dados sensíveis são transmitidos via HTTPS com criptografia TLS 1.2 (ou superior).
+  - **Hipótese Q2.2:** Todos os dados sensíveis não estão armazenados em texto simples.
 
 - **Q3:** O tempo de resposta a tentativas de invasão ou falhas de segurança é adequado?
-  - **Métrica 1:** Tempo médio de detecção de incidentes.
-  - **Métrica 2:** Tempo médio de resposta a incidentes.
+  - **Métrica 1:** Tempo médio de resposta a incidentes.
   - **Hipótese Q3:** Tentativas de acesso malicioso são identificadas e respondidas em menos de 5 minutos.
 
 ---
@@ -84,7 +84,7 @@ O AGROMART visa melhorar a eficiência e a qualidade da plataforma de e-commerce
 
 | Objetivo       | Questão                                                                 | Métrica                                                                                     |
 |----------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| **Usabilidade** | Q1: Os usuários conseguem encontrar e comprar um produto facilmente?    | Tempo médio para finalizar uma compra                                                      |
+| **Usabilidade** | Q1:  Os usuários conseguem fazer login e criar conta facilmente?    | Tempo médio para criar uma conta e realizar login.                                                      |
 |                | Q2: Qual é o nível de satisfação dos usuários com a interface?           | Avaliação média da interface (escala de 1 a 5)                                              |
 |                | Q3: Quantos cliques são necessários para concluir uma compra?            | Número médio de cliques do início da busca até a finalização da compra                     |
 | **Portabilidade** | Q1: O sistema funciona em diferentes navegadores?                     | Taxa de comportamento consistente entre navegadores testados                                |
@@ -92,7 +92,7 @@ O AGROMART visa melhorar a eficiência e a qualidade da plataforma de e-commerce
 |                | Q3: O sistema é compatível com diferentes sistemas operacionais?         | Taxa de compatibilidade sem erros nos sistemas suportados                                   |
 | **Segurança**  | Q1: O sistema impede acesso não autorizado?                              | Taxa de tentativas de acesso não autorizado bloqueadas                                     |
 |                | Q2: Dados sensíveis estão protegidos?                                    | Percentual de dados transmitidos com TLS 1.2+; Incidência de dados armazenados em texto simples |
-|                | Q3: Tempo de resposta a falhas de segurança é adequado?                  | Tempo médio de detecção e resposta a incidentes                                            |
+|                | Q3: Tempo de resposta a falhas de segurança é adequado?                  |  Tempo médio de resposta a incidentes.                                            |
 
 ## Tabela de Contribuição
 
@@ -145,4 +145,4 @@ O AGROMART visa melhorar a eficiência e a qualidade da plataforma de e-commerce
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|22/05/2025|Criação do documento| [Eduarda Tavares](https://github.com/erteduarda) |[Ana Letícia](https://github.com/analeticiaa)|
-|`1.1`|08/07/2025|Adiciona métricas para cada questão e corrige objetivos| [Maciel Júnior](https://github.com/macieljuniormax) |[Ana Letícia](https://github.com/analeticiaa)|
+|`1.1`|08/07/2025|Adiciona métricas para cada questão e corrige objetivos| [Maciel Júnior](https://github.com/macieljuniormax), [João Vitor](https://github.com/Joa0V) |[Ana Letícia](https://github.com/analeticiaa)|
