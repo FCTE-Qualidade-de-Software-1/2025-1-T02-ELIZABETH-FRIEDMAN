@@ -1092,28 +1092,16 @@
 <tr>
 <td>Plataforma Agromart</td>
 <td>Melhorar a experiência do usuário</td>
-<td>- Facilidade de uso</td>
-<td></td>
-</tr>
-<tr>
-<td>- Tempo para completar tarefas</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>- Feedback do usuário</td>
+<td>- Tempo máximo para criar uma conta e realizar login  <br>- Avaliação média da interface <br>- Número médio de cliques do início da busca até a finalização da compra</td>
 <td>Equipe de Design UX</td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
 <h3 id="quality-focus-foco-de-qualidade">Quality Focus (Foco de Qualidade)</h3>
 <ul>
-<li>Facilidade de encontrar e comprar produtos  </li>
-<li>Tempo médio de conclusão de tarefas (busca + finalização)  </li>
-<li>Nível de satisfação subjetivo (avaliação de 1 a 5)  </li>
+<li>Tempo máximo para criar uma conta e realizar login</li>
+<li>Avaliação média da interface (escala de 1 a 5)</li>
+<li>Número médio de cliques do início da busca até a finalização da compra</li>
 </ul>
 <h3 id="variation-factors-fatores-de-variacao">Variation Factors (Fatores de Variação)</h3>
 <ul>
@@ -1123,7 +1111,7 @@
 </ul>
 <h3 id="baseline-hypotheses-hipoteses-de-referencia">Baseline Hypotheses (Hipóteses de Referência)</h3>
 <ul>
-<li><strong>Q1:</strong> 90 % dos usuários conseguem completar uma compra em até 3 minutos.  </li>
+<li><strong>Q1:</strong> 90 % dos usuários conseguem realizar login em menos de 200ms.  </li>
 <li><strong>Q2:</strong> A média de avaliação da interface pelos usuários é superior a 4,0 (escala 1–5).  </li>
 <li><strong>Q3:</strong> Máximo de 5 cliques desde a busca até a finalização da compra.  </li>
 </ul>
@@ -1148,28 +1136,16 @@
 <tr>
 <td>Plataforma Agromart</td>
 <td>Caracterizar portabilidade da aplicação</td>
-<td>- Compatibilidade com navegadores (Chrome, Firefox, Safari)</td>
-<td></td>
-</tr>
-<tr>
-<td>- Compatibilidade com dispositivos (mobile, desktop)</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>- Compatibilidade com sistemas operacionais (Windows, macOS, Linux, Android, iOS)</td>
+<td>- Porcentagem de builds sem falha por navegador <br>-  Taxa de responsividade e manutenção da funcionalidade em diferentes tamanhos de tela. <br>- Taxa de compatibilidade sem erros em sistemas operacionais suportados.</td>
 <td>Equipe de Desenvolvimento</td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
 <h3 id="quality-focus-foco-de-qualidade_1">Quality Focus (Foco de Qualidade)</h3>
 <ul>
-<li>Número de falhas em diferentes navegadores  </li>
-<li>Problemas de layout/responsividade em dispositivos móveis  </li>
-<li>Erros de execução por ambiente (SO, versão do navegador)  </li>
+<li>Porcentagem de builds sem falha por navegador</li>
+<li>Taxa de responsividade e manutenção da funcionalidade em diferentes tamanhos de tela.</li>
+<li>Taxa de compatibilidade sem erros em sistemas operacionais suportados.</li>
 </ul>
 <h3 id="variation-factors-fatores-de-variacao_1">Variation Factors (Fatores de Variação)</h3>
 <ul>
@@ -1179,9 +1155,9 @@
 </ul>
 <h3 id="baseline-hypotheses-hipoteses-de-referencia_1">Baseline Hypotheses (Hipóteses de Referência)</h3>
 <ul>
-<li>100 % das funcionalidades operem em múltiplos navegadores.  </li>
-<li>80 % de responsividade (sem distorções) em dispositivos móveis.  </li>
-<li>100 % de compatibilidade com principais sistemas operacionais.  </li>
+<li>O sistema apresenta comportamento consistente em todos os navegadores testados.</li>
+<li>O layout se adapta corretamente e mantém a funcionalidade em ao menos 80% dos dispositivos móveis testados. </li>
+<li>O sistema funciona sem erros em todos os sistemas operacionais suportados. </li>
 </ul>
 <h3 id="impact-of-variation-factors-impacto-dos-fatores-de-variacao_1">Impact of Variation Factors (Impacto dos Fatores de Variação)</h3>
 <ul>
@@ -1219,47 +1195,15 @@
 </tr>
 <tr>
 <td>Questões</td>
-<td>- <strong>Q1:</strong> O sistema impede o acesso não autorizado a áreas restritas?</td>
-</tr>
-<tr>
-<td>- <strong>Q2:</strong> Os dados sensíveis estão protegidos (armazenamento/transmissão)?</td>
-<td></td>
-</tr>
-<tr>
-<td>- <strong>Q3:</strong> Tempo de resposta a falhas de segurança é adequado?</td>
-<td></td>
+<td>- <strong>Q1:</strong> O sistema impede o acesso não autorizado a áreas restritas?  <br>- <strong>Q2:</strong> Os dados sensíveis (ex.: informações de cartão de crédito) estão sendo armazenados e transmitidos de forma segura? <br>- <strong>Q3:</strong> O tempo de resposta a tentativas de invasão ou falhas de segurança é adequado?</td>
 </tr>
 <tr>
 <td>Métricas</td>
-<td>- Taxa de tentativas de acesso não autorizado bloqueadas</td>
-</tr>
-<tr>
-<td>- Percentual de dados sensíveis transmitidos via HTTPS/TLS 1.2+</td>
-<td></td>
-</tr>
-<tr>
-<td>- Incidência de dados sensíveis armazenados em texto simples</td>
-<td></td>
-</tr>
-<tr>
-<td>- Tempo médio de detecção de incidentes</td>
-<td></td>
-</tr>
-<tr>
-<td>- Tempo médio de resposta a incidentes</td>
-<td></td>
+<td>- Taxa de tentativas de acesso não autorizado bloqueadas  <br>- Percentual de dados sensíveis transmitidos via HTTPS/TLS 1.2+ <br>- Incidência de dados sensíveis armazenados em texto simples  <br>- Tempo médio de detecção de incidentes  <br>- Tempo médio de resposta a incidentes</td>
 </tr>
 <tr>
 <td>Hipóteses</td>
-<td>- <strong>Q1:</strong> 100 % dos acessos não autorizados são bloqueados</td>
-</tr>
-<tr>
-<td>- <strong>Q2:</strong> Todos os dados sensíveis são transmitidos e armazenados de forma segura (TLS 1.2+; sem texto simples)</td>
-<td></td>
-</tr>
-<tr>
-<td>- <strong>Q3:</strong> Resposta a incidentes em até 5 minutos.</td>
-<td></td>
+<td>- <strong>Q1:</strong> 100 % dos acessos não autorizados são bloqueados  <br>- <strong>Q2:</strong> Todos os dados sensíveis são transmitidos e armazenados de forma segura (TLS 1.2+; sem texto simples)  <br>- <strong>Q3:</strong> Resposta a incidentes em até 5 minutos.</td>
 </tr>
 </tbody>
 </table>
@@ -1327,6 +1271,13 @@
 <td>Criação do documento</td>
 <td><a href="https://github.com/erteduarda">Eduarda Tavares</a></td>
 <td style="text-align: center;"><a href="https://github.com/analeticiaa">Ana Letícia</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.1</code></td>
+<td>08/07/2025</td>
+<td>Compatibilidade com entrega final</td>
+<td><a href="https://gthub.com/avmricardo">Ricardo Augusto</a></td>
+<td style="text-align: center;"><a href="https://github.com/macieljuniormax">Maciel</a>, <a href="https://github.com/Joa0V">João Vitor</a></td>
 </tr>
 </tbody>
 </table>

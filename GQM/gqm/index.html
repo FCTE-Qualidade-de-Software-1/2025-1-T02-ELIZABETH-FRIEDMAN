@@ -1073,118 +1073,153 @@
 <h1 id="gqm">GQM</h1>
 <h2 id="gqm-fase-definicao">GQM – Fase Definição</h2>
 <h3 id="objetivo-de-negocio-do-agromart">Objetivo de Negócio do AGROMART</h3>
-<p>O AGROMART visa melhorar a eficiência e a qualidade da plataforma de e-commerce AgroMart, com o propósito de aumentar a satisfação dos usuários, otimizar o desempenho da aplicação e garantir a confiabilidade no processo de compra e venda de produtos agrícolas.  </p>
+<p>O AGROMART visa melhorar a eficiência e a qualidade da plataforma de e-commerce AgroMart, com o propósito de aumentar a satisfação dos usuários, otimizar o desempenho da aplicação e garantir a confiabilidade no processo de compra e venda de produtos agrícolas.</p>
 <h3 id="objetivo-de-medicao-1-usabilidade">Objetivo de Medição 1: Usabilidade</h3>
 <ul>
-<li><strong>Analisar</strong> o Agromart  </li>
-<li><strong>Para o propósito de</strong> melhorar a experiência do usuário  </li>
-<li><strong>Com respeito a</strong> facilidade de uso, tempo para completar tarefas e feedback do usuário  </li>
-<li><strong>Do ponto de vista da</strong> equipe de Design UX  </li>
-<li><strong>No contexto de</strong> usuários realizando ações comuns (como buscar produtos e finalizar compras)  </li>
+<li><strong>Analisar</strong> o Agromart</li>
+<li><strong>Para o propósito de</strong> analisar</li>
+<li><strong>Com respeito a</strong> usabilidade</li>
+<li><strong>Do ponto de vista da</strong> equipe de Design UX</li>
+<li><strong>No contexto</strong> da disciplina de qualidade de software</li>
 </ul>
 <h4 id="questoes-objetivo-de-medicao-1-usabilidade">Questões Objetivo de Medição 1: Usabilidade</h4>
 <ul>
-<li><strong>Q1:</strong> Os usuários conseguem encontrar e comprar um produto facilmente?  </li>
+<li><strong>Q1:</strong> Os usuários conseguem fazer login e criar conta facilmente?</li>
+<li><strong>Métrica:</strong> Tempo máximo para criar uma conta e realizar login para uma determinada quantidade de usuários.</li>
 <li>
-<p><strong>Hipótese Q1:</strong> 90 % dos usuários conseguem completar uma compra em até 3 minutos.</p>
+<p><strong>Hipótese Q1:</strong> 90% dos usuários possuem tempo máximo para receber uma resposta ao realizar ações de criar conta e/ou login menor ou igual a 200ms.</p>
 </li>
 <li>
-<p><strong>Q2:</strong> Qual é o nível de satisfação dos usuários com a interface?  </p>
+<p><strong>Q2:</strong> Qual é o nível de satisfação dos usuários com a interface?</p>
+</li>
+<li><strong>Métrica:</strong> Avaliação média da interface (escala de 1 a 5).</li>
+<li>
+<p><strong>Hipótese Q2:</strong> A média de avaliação da interface pelos usuários é superior a 4,0.</p>
 </li>
 <li>
-<p><strong>Hipótese Q2:</strong> A média de avaliação da interface pelos usuários é superior a 4,0 (em uma escala de 1 a 5).</p>
+<p><strong>Q3:</strong> Quantos cliques, em média, são necessários para concluir uma compra?</p>
 </li>
-<li>
-<p><strong>Q3:</strong> Quantos cliques, em média, são necessários para concluir uma compra?  </p>
-</li>
+<li><strong>Métrica:</strong> Número médio de cliques do início da busca até a finalização da compra.</li>
 <li><strong>Hipótese Q3:</strong> São necessários no máximo 5 cliques desde a busca até a finalização da compra.</li>
 </ul>
 <hr />
 <h3 id="objetivo-de-medicao-2-portabilidade">Objetivo de Medição 2: Portabilidade</h3>
 <ul>
-<li><strong>Analisar</strong> o Agromart  </li>
-<li><strong>Para o propósito de</strong> caracterizar sua capacidade de adaptação a diferentes ambientes de execução  </li>
-<li><strong>Com respeito a</strong> compatibilidade entre navegadores, dispositivos e sistemas operacionais  </li>
-<li><strong>Do ponto de vista da</strong> equipe de desenvolvimento  </li>
-<li><strong>No contexto de</strong> implantação e uso do sistema por usuários em plataformas variadas  </li>
+<li><strong>Analisar</strong> o Agromart</li>
+<li><strong>Para o propósito de</strong> analisar</li>
+<li><strong>Com respeito a</strong> portabilidade</li>
+<li><strong>Do ponto de vista da</strong> equipe de desenvolvimento</li>
+<li><strong>No contexto</strong> da disciplina de qualidade de software</li>
 </ul>
 <h4 id="questoes-objetivo-de-medicao-2-portabilidade">Questões Objetivo de Medição 2: Portabilidade</h4>
 <ul>
-<li><strong>Q1:</strong> O sistema é funcional em diferentes navegadores (Chrome, Firefox, Safari)?  </li>
+<li><strong>Q1:</strong> O sistema é funcional em diferentes navegadores (Chrome, Firefox, Safari)?</li>
+<li><strong>Métrica:</strong> Porcentagem de builds sem falha por navegador.</li>
 <li>
 <p><strong>Hipótese Q1:</strong> O sistema apresenta comportamento consistente em todos os navegadores testados.</p>
 </li>
 <li>
-<p><strong>Q2:</strong> O sistema é utilizável em dispositivos móveis com diferentes resoluções?  </p>
+<p><strong>Q2:</strong> O sistema é utilizável em dispositivos móveis com diferentes resoluções?</p>
+</li>
+<li><strong>Métrica:</strong> Taxa de responsividade e manutenção da funcionalidade em diferentes tamanhos de tela.</li>
+<li>
+<p><strong>Hipótese Q2:</strong> O layout se adapta corretamente e mantém a funcionalidade em ao menos 80% dos dispositivos móveis testados.</p>
 </li>
 <li>
-<p><strong>Hipótese Q2:</strong> O layout se adapta corretamente e mantém a funcionalidade em dispositivos com diferentes tamanhos de tela.</p>
+<p><strong>Q3:</strong> O sistema é compatível com diferentes sistemas operacionais (Windows, macOS, Linux, Android, iOS)?</p>
 </li>
-<li>
-<p><strong>Q3:</strong> O sistema é compatível com diferentes sistemas operacionais (Windows, macOS, Linux, Android, iOS)?  </p>
-</li>
+<li><strong>Métrica:</strong> Taxa de compatibilidade sem erros em sistemas operacionais suportados.</li>
 <li><strong>Hipótese Q3:</strong> O sistema funciona sem erros em todos os sistemas operacionais suportados.</li>
 </ul>
 <hr />
 <h3 id="objetivo-de-medicao-3-seguranca">Objetivo de Medição 3: Segurança</h3>
 <ul>
-<li><strong>Analisar</strong> o Agromart  </li>
-<li><strong>Para o propósito de</strong> reduzir vulnerabilidades e mitigar riscos  </li>
-<li><strong>Com respeito a</strong> controle de acesso, exposição de dados sensíveis e resposta a incidentes  </li>
-<li><strong>Do ponto de vista da</strong> equipe de segurança da informação  </li>
-<li><strong>No contexto de</strong> usuários acessando e manipulando dados pessoais e financeiros durante a navegação e compra  </li>
+<li><strong>Analisar</strong> o Agromart</li>
+<li><strong>Para o propósito de</strong> analisar</li>
+<li><strong>Com respeito a</strong> segurança</li>
+<li><strong>Do ponto de vista da</strong> equipe de segurança da informação</li>
+<li><strong>No contexto</strong> da disciplina de qualidade de software</li>
 </ul>
 <h4 id="questoes-objetivo-de-medicao-3-seguranca">Questões Objetivo de Medição 3: Segurança</h4>
 <ul>
-<li><strong>Q1:</strong> O sistema impede o acesso não autorizado a áreas restritas?  </li>
+<li><strong>Q1:</strong> O sistema impede o acesso não autorizado a áreas restritas?</li>
+<li><strong>Métrica:</strong> Taxa de tentativas de acesso não autorizado bloqueadas.</li>
 <li>
-<p><strong>Hipótese Q1:</strong> 100 % das tentativas de acesso não autorizado são bloqueadas.</p>
+<p><strong>Hipótese Q1:</strong> 100% das tentativas de acesso não autorizado são bloqueadas.</p>
 </li>
 <li>
-<p><strong>Q2:</strong> Os dados sensíveis (ex.: informações de cartão de crédito) estão sendo armazenados e transmitidos de forma segura?  </p>
+<p><strong>Q2:</strong> Os dados sensíveis (ex.: informações de cartão de crédito) estão sendo armazenados e transmitidos de forma segura?</p>
+</li>
+<li><strong>Métrica 1:</strong> Percentual de dados sensíveis transmitidos com criptografia TLS 1.2 ou superior.</li>
+<li><strong>Métrica 2:</strong> Incidência de dados sensíveis armazenados em texto simples.</li>
+<li><strong>Hipótese Q2.1:</strong> Todos os dados sensíveis são transmitidos via HTTPS com criptografia TLS 1.2 (ou superior).</li>
+<li>
+<p><strong>Hipótese Q2.2:</strong> Todos os dados sensíveis não estão armazenados em texto simples.</p>
 </li>
 <li>
-<p><strong>Hipótese Q2:</strong> Todos os dados sensíveis são transmitidos via HTTPS com criptografia TLS 1.2 (ou superior) e não são armazenados em texto simples.</p>
+<p><strong>Q3:</strong> O tempo de resposta a tentativas de invasão ou falhas de segurança é adequado?</p>
 </li>
-<li>
-<p><strong>Q3:</strong> O tempo de resposta a tentativas de invasão ou falhas de segurança é adequado?  </p>
-</li>
+<li><strong>Métrica 1:</strong> Tempo médio de resposta a incidentes.</li>
 <li><strong>Hipótese Q3:</strong> Tentativas de acesso malicioso são identificadas e respondidas em menos de 5 minutos.</li>
 </ul>
 <hr />
 <h3 id="relacao-entre-objetivos-de-medicao-questoes-e-metricas">Relação entre Objetivos de Medição – Questões e Métricas</h3>
-<p><strong>Objetivo:</strong> Analisar a segurança da aplicação para reduzir vulnerabilidades e mitigar riscos</p>
 <table>
 <thead>
 <tr>
+<th>Objetivo</th>
 <th>Questão</th>
 <th>Métrica</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Q1:</strong> O sistema impede acesso não autorizado?</td>
+<td><strong>Usabilidade</strong></td>
+<td>Q1:  Os usuários conseguem fazer login e criar conta facilmente?</td>
+<td>Tempo médio para criar uma conta e realizar login.</td>
+</tr>
+<tr>
+<td></td>
+<td>Q2: Qual é o nível de satisfação dos usuários com a interface?</td>
+<td>Avaliação média da interface (escala de 1 a 5)</td>
+</tr>
+<tr>
+<td></td>
+<td>Q3: Quantos cliques são necessários para concluir uma compra?</td>
+<td>Número médio de cliques do início da busca até a finalização da compra</td>
+</tr>
+<tr>
+<td><strong>Portabilidade</strong></td>
+<td>Q1: O sistema funciona em diferentes navegadores?</td>
+<td>Taxa de comportamento consistente entre navegadores testados</td>
+</tr>
+<tr>
+<td></td>
+<td>Q2: O sistema é utilizável em diferentes resoluções de dispositivos?</td>
+<td>Taxa de responsividade e manutenção da funcionalidade em diferentes tamanhos de tela</td>
+</tr>
+<tr>
+<td></td>
+<td>Q3: O sistema é compatível com diferentes sistemas operacionais?</td>
+<td>Taxa de compatibilidade sem erros nos sistemas suportados</td>
+</tr>
+<tr>
+<td><strong>Segurança</strong></td>
+<td>Q1: O sistema impede acesso não autorizado?</td>
 <td>Taxa de tentativas de acesso não autorizado bloqueadas</td>
 </tr>
 <tr>
-<td><strong>Q2:</strong> Dados sensíveis estão protegidos?</td>
-<td>- Percentual de dados sensíveis transmitidos com TLS 1.2 ou superior</td>
-</tr>
-<tr>
-<td>- Incidência de dados sensíveis armazenados em texto simples</td>
 <td></td>
+<td>Q2: Dados sensíveis estão protegidos?</td>
+<td>Percentual de dados transmitidos com TLS 1.2+; Incidência de dados armazenados em texto simples</td>
 </tr>
 <tr>
-<td><strong>Q3:</strong> Tempo de resposta a falhas de segurança é adequado?</td>
-<td>- Tempo médio de detecção de incidentes</td>
-</tr>
-<tr>
-<td>- Tempo médio de resposta a incidentes</td>
 <td></td>
+<td>Q3: Tempo de resposta a falhas de segurança é adequado?</td>
+<td>Tempo médio de resposta a incidentes.</td>
 </tr>
 </tbody>
 </table>
-<hr />
 <h2 id="tabela-de-contribuicao">Tabela de Contribuição</h2>
 <div align="center">
   <table border="1">
@@ -1247,6 +1282,13 @@
 <td>22/05/2025</td>
 <td>Criação do documento</td>
 <td><a href="https://github.com/erteduarda">Eduarda Tavares</a></td>
+<td style="text-align: center;"><a href="https://github.com/analeticiaa">Ana Letícia</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.1</code></td>
+<td>08/07/2025</td>
+<td>Adiciona métricas para cada questão e corrige objetivos</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a>, <a href="https://github.com/Joa0V">João Vitor</a></td>
 <td style="text-align: center;"><a href="https://github.com/analeticiaa">Ana Letícia</a></td>
 </tr>
 </tbody>
